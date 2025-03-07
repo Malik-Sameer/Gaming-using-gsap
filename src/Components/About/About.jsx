@@ -1,13 +1,14 @@
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/all";
+import './About.css'
 
 import AnimatedTitle from '../AnimatedTitle/AnimatedTitle'
 
 gsap.registerPlugin(ScrollTrigger);
 
 const About = () => {
-  useGSAP(() => {
+{  useGSAP(() => {
     const clipAnimation = gsap.timeline({
       scrollTrigger: {
         trigger: "#clip",
@@ -24,7 +25,7 @@ const About = () => {
       height: "100vh",
       borderRadius: 0,
     });
-  });
+  });}
 
   return (
     <div id="about" className="min-h-screen w-screen">
@@ -38,7 +39,7 @@ const About = () => {
           containerClass="mt-5 !text-black text-center"
         />
 
-        <div className="about-subtext">
+        <div className="about-subtext " id="about-subtext">
           <p>The Game of Games begins—your life, now an epic MMORPG</p>
           <p className="text-gray-500">
             Zentry unites every player from countless games and platforms, both

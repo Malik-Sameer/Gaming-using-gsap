@@ -271,3 +271,15 @@ body {
     opacity: 0.8;
   }
 }
+/*Custom Css*/
+@media (max-width:600px) {
+  #about-subtext{
+      bottom: -100dvh;
+  }    
+  .story-img-container {
+    height: 100vh
+}
+#join-zentry{
+  opacity: 0;
+}
+}
