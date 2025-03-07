@@ -73,15 +73,7 @@ const handleVideoLoad = () => {
 
   return (
     <div className='relative h-dvh w-screen overflow-x-hidden'>
-            {isLoading &&(
-                <div className='flex-center absolute z-50 w-screen h-dvh overflow-hidden bg-violet-50'>
-                    <div className='three-body'>
-                        <div className='three-body__dot'/>
-                        <div className='three-body__dot'/>
-                        <div className='three-body__dot'/>
-                    </div>
-                </div>
-            )} 
+           
       <div id="video-frame" className='relative z-10 h-dvh w-screen overflow-x-hidden rounded-lg bg-blue-75'> 
            <div>
              <div className='mask-clip-path absolute-center absolute z-50 cursor-pointer rounded-lg'>
