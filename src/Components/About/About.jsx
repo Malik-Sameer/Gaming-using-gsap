@@ -31,11 +31,11 @@ const About = () => {
     <div id="about" className="min-h-screen w-screen">
       <div className="relative mb-8 mt-36 flex flex-col items-center gap-5">
         <p className="font-general text-sm uppercase md:text-[16px]">
-          Welcome to Zentry
+          Welcome to Sk | Clan
         </p>
 
         <AnimatedTitle
-          title="Disc<b>o</b>ver the world's <br /> largest shared <b>a</b>dventure"
+          title="Disc<b>o</b>ver the craziest's <br /> world of P<b>u</b>bg "
           containerClass="mt-5 !text-black text-center"
         />
 

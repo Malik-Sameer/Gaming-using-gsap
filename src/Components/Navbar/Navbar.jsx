@@ -8,7 +8,7 @@ const Navbar = () => {
        const [isAudioPlaying, setIsAudioPlaying] = useState(false)
        const [isIndicatorActive, setIsIndicatorActive] = useState(false)
         const navContainerRef=useRef(null)
-        const navItems = ["Nexus", "Vault", "Prologue", "About", "Contact"];
+        const navItems = ["Home", "About", "Features", "Realm", "Contact"];
         const audioElementRef=useRef(null)
         const [lastScrollY, setLastScrollY] = useState(0)
         const [isNavVisible, setIsNavVisible] = useState(true)
@@ -62,7 +62,7 @@ const Navbar = () => {
             <div className='flex items-center gap-7'>
                 <img src="/img/logo.png" alt="logo" className='w-10'/>
                 <Button id='product-button'
-                title='Products'
+                title='Join Clan '
                 rightIcon={<TiLocationArrow/>}
                 containerClass='bg-blue-50 md:flex hidden items-center justify-center gap-1' 
                 />
@@ -70,7 +70,7 @@ const Navbar = () => {
             <div className='flex h-full items-center'>
                 <div className='hidden md:block'>
                  {navItems.map((item) => (
-                    <a key={item} href={`#${item.toLowerCase()}`} className='nav-hover-btn'>
+                    <a key={item} href={`#${item.toLowerCase()}`} className='nav-hover-btn' >
                         {item}
                     </a>
                  ))}

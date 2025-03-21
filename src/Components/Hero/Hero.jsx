@@ -76,7 +76,7 @@ const handleVideoLoad = () => {
     const getVideoSrc = (index) => `videos/hero-${index}.mp4`
 
   return (
-    <div className='relative h-dvh w-screen overflow-x-hidden'>
+    <div className='relative h-dvh w-screen overflow-x-hidden' id='home'>
             {isLoading &&(
                 <div className='flex-center absolute z-50 w-screen h-dvh overflow-hidden bg-violet-50'>
                     <div className='three-body'>
@@ -120,12 +120,12 @@ const handleVideoLoad = () => {
         </h1>
         <div className='absolute left-0 top-0 z-40 size-full'>
             <div className='mt-24 px-5 sm:px-10'>
-                <h1 className='special-font hero-heading text-blue-100'>Refi<b>n</b>e</h1>
+                <h1 className='special-font hero-heading text-blue-100'>AR<b>E</b>NA</h1>
                 <p className='mb-5 max-w-64 font-rebort-regular text-blue-100 leading-5'>
-                    Enter the Metagaming layer <br />
-                    Unleash the Play Economy
+                    Enter the Competitive <br />
+                    World of Pubg Mobile
                 </p>
-                <Button id='watch-trailer' title='Watch Trailer' leftIcon={<TiLocationArrow/>}
+                <Button id='watch-trailer' title='PLAY TOGATHER' leftIcon={<TiLocationArrow/>}
                 containerClass='!bg-yellow-300 flex-center gap-1 '
                 />
             </div>
