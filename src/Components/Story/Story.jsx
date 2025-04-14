@@ -37,11 +37,11 @@ const Story = () => {
     <section id='realm' className='min-h-dvh w-screen bg-black text-blue-50 '>
         <div className='flex size-full flex-col items-center py-10 pb-24'>
         <p className="font-general text-sm uppercase md:text-[16px]">
-          the multiversal ip world
+        The Ultimate Combat Universe
         </p>
          <div className='relative size-full'>
             <AnimatedTitle
-            title="The st<b>o</b>ry of <br />hidden real<b>m</b>"
+            title="Where le<b>g</b>end are <br />born silent<b>ly</b>"
             sectionId='#story'
             containerClass='mt-5 pointer-events-none mix-blend-difference relative z-10'
             />
@@ -89,14 +89,12 @@ const Story = () => {
          <div className="-mt-80 flex w-full justify-center md:-mt-64 md:me-44 md:justify-end">
           <div className="flex h-full w-fit flex-col items-center md:items-start">
             <p className="mt-3 max-w-sm text-center font-circular-web text-violet-50 md:text-start">
-              Where realms converge, lies Zentry and the boundless pillar.
-              Discover its secrets and shape your fate amidst infinite
-              opportunities.
+            Where battlegrounds collide, SK-Clan stands—the endless pillar of power. Uncover its secrets, claim your destiny, and rise through the chaos of limitless warzones.
             </p>
 
             <Button
               id="realm-btn"
-              title="discover prologue"
+              title="discover training"
               containerClass="mt-5"
             />
           </div>
